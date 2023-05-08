@@ -1,4 +1,6 @@
 import Home from "~/pages/Home"
+import Profile from "~/pages/Profile"
+import Auth from "~/pages/Auth"
 
 function App() {
 
@@ -9,7 +11,8 @@ function App() {
         <div className="blur" style={{top: '36%', left: '-8rem'}}></div>
 
         <Home/>
-
+        {/* <Profile /> */}
+        {/* <Auth /> */}
       </div>
     </>
   )

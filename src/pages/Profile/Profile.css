@@ -1,7 +1,13 @@
-.Home{
+.profile{
     height: 100%;
     position: relative;
     display: grid;
     grid-template-columns: 288px auto 360px;
     gap: 12rem;
+}
+
+.profile-center {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
 }

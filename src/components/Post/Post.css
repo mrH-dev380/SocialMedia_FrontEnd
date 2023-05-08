@@ -1,0 +1,21 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  border-radius: 16px;
+  padding: 1.6rem;
+  background-color: var(--cardColor);
+}
+
+.post>img {
+  width: 100%;
+  max-height: 32rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.post-react {
+  display: flex;
+  align-items: start;
+  gap: 2.4rem;
+}
