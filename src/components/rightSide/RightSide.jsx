@@ -1,12 +1,14 @@
 import './RightSide.css'
-import React from 'react'
+import React, { useState } from 'react'
 import Home from "~/img/home.png";
 import Noti from "~/img/noti.png";
 import Comment from "~/img/comment.png";
 import { UilSetting } from "@iconscout/react-unicons";
-import TrendCard from '~/components/TrendCard/';
+import TrendCard from '~/components/TrendCard';
+import ShareModal from '~/components/ShareModal'
 
 const RightSide = () => {
+  const [modalOpened, setModalOpened] = useState(false)
   return (
     <div className='right-side'>
       <div className="navbar">
@@ -17,7 +19,10 @@ const RightSide = () => {
       </div>
       <TrendCard />
 
-      <button className="button share-btn">Share</button>
+      <button className="button share-btn" onClick={() => setModalOpened(true)}>
+        Share
+      </button>
+      <ShareModal modalOpened={modalOpened} setModalOpened={setModalOpened} />
     </div>
   )
 }

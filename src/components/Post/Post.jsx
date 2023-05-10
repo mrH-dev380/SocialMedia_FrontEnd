@@ -6,7 +6,6 @@ import Heart from '~/img/like.png'
 import NotLike from '~/img/notlike.png'
 
 const Post = ({data}) => {
-  console.log(data)
 
   return (
     <div className='post'>

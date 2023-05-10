@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
     "@iconscout/react-unicons": "^2.0.2",
+    "@mantine/core": "^6.0.10",
+    "@mantine/hooks": "^6.0.10",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
