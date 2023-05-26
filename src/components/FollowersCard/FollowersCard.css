@@ -36,8 +36,21 @@
   font-weight: bold;
 }
 
+.name>span:nth-of-type(2){
+  width: 126px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .follow-button{
   height: 3.2rem;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.unfollow-button{
+  color: var(--orange) !important;
+  border: 2px solid var(--orange) !important;
+  cursor: pointer !important;
+  background: transparent !important;
 }
